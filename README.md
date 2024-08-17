@@ -7,7 +7,7 @@ This project is designed to automate the process of taking selfies and detecting
 - Face Detection: Detects human faces using `haarcascade_frontalface_default.xml`.
 - Cat Face Detection: Detects cat faces using `haarcascade_frontalcatface.xml`.
 - Smile Detection: Detects smiles using `haarcascade_smile.xml`.
-- Selfie Capture: Captures a selfie when a face and smile are detected.
+- Selfie Capture: Captures a selfie using the `Selfie.py` script when a face and smile are detected.
 - Sound Effect: Plays a camera click sound (`camera_click.wav`) when a selfie is captured.
 
 ## Getting Started
@@ -33,4 +33,5 @@ To start the program, run the Selfie.py script:
 ```bash
 python Selfie.py
 
-This will activate your webcam and start detecting faces and smiles. When both a face and a smile are detected, the program will capture a selfie 
+This will activate your webcam and start detecting faces and smiles.
+When both a face and a smile are detected, the program will capture a selfie.
